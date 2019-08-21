@@ -5,10 +5,12 @@
 
   <test name="Test">
     <classes>
-      <class name="com.auto.qa.pages.TestPage4"/>
-      <class name="com.auto.qa.pages.TestPage3"/>
+         
       <class name="com.auto.qa.pages.TestPage1"/>
       <class name="com.auto.qa.pages.TestPage2"/>
+      <class name="com.auto.qa.pages.TestPage3"/>
+      <class name="com.auto.qa.pages.TestPage4"/>
+      <class name="com.auto.qa.pages.TestPage4"/>
       
     </classes>
   </test> <!-- Test -->
