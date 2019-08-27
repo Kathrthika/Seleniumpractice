@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="un" value="339154"/>
+  <parameter name="pwd" value="admin"/>
+  <parameter name="url" value="http://172.23.25.12/"/>
+  <listeners>
+    <listener class-name="com.auto.qa.testcases.CustomListeners"/>
+  </listeners>
+  <test name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.auto.qa.testcases.TestPage2">
+        <methods>
+          <include name="test4"/>
+          <include name="test3"/>
+          <include name="test2"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.TestPage2 -->
+      <class name="com.auto.qa.testcases.TestPage4">
+        <methods>
+          <include name="beforemethod"/>
+          <include name="test4"/>
+          <include name="aftermethod"/>
+          <include name="beforeclass"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.TestPage4 -->
+      <class name="com.auto.qa.testcases.TestPage3">
+        <methods>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.TestPage3 -->
+      <class name="com.auto.qa.testcases.TestPage5">
+        <methods>
+          <include name="beforesuite"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="beforeclass"/>
+          <include name="aftemethod"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.TestPage5 -->
+      <class name="com.auto.qa.testcases.TestPage1">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test3"/>
+          <include name="test4"/>
+        </methods>
+      </class> <!-- com.auto.qa.testcases.TestPage1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

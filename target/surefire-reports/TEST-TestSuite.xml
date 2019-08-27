@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="21" failures="0" name="TestSuite" time="4.097" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\INAZWRADS1007"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-9"/>
+    <property name="ROOT_BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="OneDriveCommercial" value="C:\Users\339154\OneDrive - Narayana Health"/>
+    <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
+    <property name="PTSMINSTALLPATH_X86" value="c:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="NHCORP"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="9"/>
+    <property name="JOB_NAME" value="Learningjenkins"/>
+    <property name="COMPUTERNAME" value="CORPLPW100314"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="BUILD_CAUSE" value="MANUALTRIGGER"/>
+    <property name="user.name" value="339154"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 142 Stepping 9, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\339154\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Learningjenkins/14/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-Learningjenkins-14"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven C:\Users\339154\.jenkins\war\WEB-INF\lib\remoting-3.29.jar C:\Users\339154\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar C:\Users\339154\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar 62179"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="132811a11cf3ea9e"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="Path" value="C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\339154\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Windows\System32;C:\Users\339154\AppData\Local\Programs\Python\Python37-32\;C:\Users\339154\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-9\bin;C:\Users\339154\AppData\Local\atom\bin;C:\Users\339154\AppData\Local\Programs\Fiddler;"/>
+    <property name="java.io.tmpdir" value="C:\Users\339154\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\339154\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Learningjenkins/14/"/>
+    <property name="M2_HOME" value="C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven"/>
+    <property name="=C:" value="C:\jnk"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#14"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="132811a11cf3ea9e"/>
+    <property name="MAVEN_HOME" value="C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\339154\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.12.jar"/>
+    <property name="CLASSPATH" value="C:\Program Files\Java\jdk1.8.0_212\lib"/>
+    <property name="HOMEPATH" value="\Users\339154"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="PTSMINSTALLPATH" value="c:\Program Files (x86)\HP\HP ProtectTools Security Manager\Bin\"/>
+    <property name="BUILD_NUMBER" value="14"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven3.interceptor" value="C:\Users\339154\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.12.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-9\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven/bin;C:\Program Files\Java\jdk-9/bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\339154\apache-maven-3.6.0-bin\apache-maven-3.6.0\bin;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\PostgreSQL\9.6\lib;C:\Program Files\Java\jdk1.8.0_212\bin;C:\Windows\System32;C:\Users\339154\AppData\Local\Programs\Python\Python37-32\;C:\Users\339154\AppData\Local\Programs\Python\Launcher\;C:\Program Files\Java\jdk-9\bin;C:\Users\339154\AppData\Local\atom\bin;C:\Users\339154\AppData\Local\Programs\Fiddler;;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="IS_M2RELEASEBUILD" value="false"/>
+    <property name="POM_GROUPID" value="org.karthikautomation"/>
+    <property name="POM_ARTIFACTID" value="newpom"/>
+    <property name="java.class.version" value="53.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/Learningjenkins/"/>
+    <property name="platformcode" value="AN"/>
+    <property name="OneDrive" value="C:\Users\339154\OneDrive - Narayana Health"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Learningjenkins/14/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\339154\.jenkins"/>
+    <property name="BUILD_ID" value="14"/>
+    <property name="TEMP" value="C:\Users\339154\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-9\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="8e09"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\339154\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="NHCORP"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="java.vm.specification.version" value="9"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk-9"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\339154"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/Learningjenkins/display/redirect"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\339154"/>
+    <property name="USERNAME" value="339154"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="NARAYANAHEALTH.ORG"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="G:\newpom\newpom"/>
+    <property name="maven.conf" value="C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\339154\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="9+181"/>
+    <property name="java.class.path" value="C:\Users\339154\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.12.jar;C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven\boot\plexus-classworlds-2.5.2.jar;C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="RegionCode" value="APJ"/>
+    <property name="WORKSPACE" value="C:\Users\339154\.jenkins\workspace\Learningjenkins"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="FPS_BROWSER_APP_PROFILE_STRING" value="Internet Explorer"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="FPS_BROWSER_USER_PROFILE_STRING" value="Default"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="9+181"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="ROOT_BUILD_CAUSE_MANUALTRIGGER" value="true"/>
+    <property name="OnlineServices" value="Online Services"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk-9/bin"/>
+    <property name="user.country" value="IN"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\339154\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\karthi_maven"/>
+    <property name="JOB_BASE_NAME" value="Learningjenkins"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="9"/>
+    <property name="POM_DISPLAYNAME" value="newpom"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.auto.qa.testcases.Testing1" name="browse" time="4.095"/>
+  <testcase classname="com.auto.qa.testcases.TestPage1" name="test1" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage1" name="test2" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage1" name="test3" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage1" name="test4" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage2" name="test1" time="0.001"/>
+  <testcase classname="com.auto.qa.testcases.TestPage2" name="test2" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage2" name="test3" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage2" name="test4" time="0.001"/>
+  <testcase classname="com.auto.qa.testcases.TestPage3" name="test1" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage3" name="test2" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage3" name="test3" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage3" name="test4" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage4" name="test1" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage4" name="test2" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage4" name="test3" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage4" name="test4" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage5" name="test1" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage5" name="test2" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage5" name="test3" time="0"/>
+  <testcase classname="com.auto.qa.testcases.TestPage5" name="test4" time="0"/>
+</testsuite>

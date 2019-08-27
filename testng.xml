@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<!-- <suite thread-count="3" name="Suite" parallel="classes">-->
-<suite  name="Suite" >
+<suite thread-count="1" name="Suite" parallel="classes">
+<parameter name="url" value="http://172.23.25.12/"/>
+<parameter name="un" value="339154"/>
+<parameter name="pwd" value="admin"/>
 
-  <test name="Test">
+<listeners>
+<listener class-name="com.auto.qa.testcases.CustomListeners" />
+</listeners>
+
+  <test name="Test"> 
+ 
+  
+  
     <classes>
-         
-      <class name="com.auto.qa.pages.TestPage1"/>
-      <class name="com.auto.qa.pages.TestPage2"/>
-      <class name="com.auto.qa.pages.TestPage3"/>
-      <class name="com.auto.qa.pages.TestPage4"/>
-      <class name="com.auto.qa.pages.TestPage4"/>
-      
+    
+      <class name="com.auto.qa.testcases.TestPage5"/>
+      <class name="com.auto.qa.testcases.TestPage4"/>
+      <class name="com.auto.qa.testcases.TestPage1"/>
+      <class name="com.auto.qa.testcases.TestPage3"/>
+      <class name="com.auto.qa.testcases.TestPage2"/>
     </classes>
+    
+    
+    
   </test> <!-- Test -->
 </suite> <!-- Suite -->

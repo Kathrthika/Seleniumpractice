@@ -1,165 +1,626 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="8" total="20" passed="12">
+<testng-results skipped="0" failed="0" ignored="16" total="36" passed="20">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="272" started-at="2019-08-21T15:17:59Z" finished-at="2019-08-21T15:17:59Z">
+  <suite name="Suite" duration-ms="96888" started-at="2019-08-27T08:46:29Z" finished-at="2019-08-27T08:48:06Z">
     <groups>
+      <group name="sanity1">
+        <method signature="TestPage2.test4()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test4" class="com.auto.qa.testcases.TestPage2"/>
+        <method signature="TestPage3.test4()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test4" class="com.auto.qa.testcases.TestPage3"/>
+        <method signature="TestPage4.test4()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test4" class="com.auto.qa.testcases.TestPage4"/>
+        <method signature="TestPage5.test4()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test4" class="com.auto.qa.testcases.TestPage5"/>
+      </group> <!-- sanity1 -->
+      <group name="sanity">
+        <method signature="TestPage1.test1()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test1" class="com.auto.qa.testcases.TestPage1"/>
+        <method signature="TestPage1.test4()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test4" class="com.auto.qa.testcases.TestPage1"/>
+        <method signature="TestPage2.test1()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test1" class="com.auto.qa.testcases.TestPage2"/>
+        <method signature="TestPage3.test1()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test1" class="com.auto.qa.testcases.TestPage3"/>
+        <method signature="TestPage4.test1()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test1" class="com.auto.qa.testcases.TestPage4"/>
+        <method signature="TestPage5.test1()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test1" class="com.auto.qa.testcases.TestPage5"/>
+      </group> <!-- sanity -->
     </groups>
-    <test name="Test" duration-ms="272" started-at="2019-08-21T15:17:59Z" finished-at="2019-08-21T15:17:59Z">
-      <class name="com.auto.qa.pages.TestPage1">
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="beforeclass" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+    <test name="Test" duration-ms="96888" started-at="2019-08-27T08:46:29Z" finished-at="2019-08-27T08:48:06Z">
+      <class name="com.auto.qa.testcases.TestPage3">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="beforeclass" is-config="true" duration-ms="7836" started-at="2019-08-27T14:17:28Z" finished-at="2019-08-27T14:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://172.23.25.12/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="beforemethod" is-config="true" duration-ms="319" started-at="2019-08-27T14:17:36Z" finished-at="2019-08-27T14:17:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="test1" duration-ms="10" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test1" duration-ms="1" started-at="2019-08-27T14:17:36Z" finished-at="2019-08-27T14:17:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="aftermethod" is-config="true" duration-ms="2216" started-at="2019-08-27T14:17:36Z" finished-at="2019-08-27T14:17:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="beforemethod" is-config="true" duration-ms="509" started-at="2019-08-27T14:17:38Z" finished-at="2019-08-27T14:17:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="test2" duration-ms="3" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test2" duration-ms="1" started-at="2019-08-27T14:17:39Z" finished-at="2019-08-27T14:17:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="aftermethod" is-config="true" duration-ms="2241" started-at="2019-08-27T14:17:39Z" finished-at="2019-08-27T14:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="beforemethod" is-config="true" duration-ms="404" started-at="2019-08-27T14:17:41Z" finished-at="2019-08-27T14:17:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="test3" duration-ms="20" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test3" duration-ms="1" started-at="2019-08-27T14:17:41Z" finished-at="2019-08-27T14:17:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="beforemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="aftermethod" is-config="true" duration-ms="2349" started-at="2019-08-27T14:17:41Z" finished-at="2019-08-27T14:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="beforemethod" is-config="true" duration-ms="516" started-at="2019-08-27T14:17:44Z" finished-at="2019-08-27T14:17:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="test4" duration-ms="3" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="test4" duration-ms="1" started-at="2019-08-27T14:17:44Z" finished-at="2019-08-27T14:17:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="aftemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="aftermethod" is-config="true" duration-ms="2240" started-at="2019-08-27T14:17:44Z" finished-at="2019-08-27T14:17:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="aftemethod" is-config="true" duration-ms="673" started-at="2019-08-27T14:17:47Z" finished-at="2019-08-27T14:17:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftemethod -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.pages.TestPage1@2a5ca609]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.testcases.TestPage3@18be83e4]" name="afterclass" is-config="true" duration-ms="1" started-at="2019-08-27T14:17:47Z" finished-at="2019-08-27T14:17:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- com.auto.qa.pages.TestPage1 -->
-      <class name="com.auto.qa.pages.TestPage2">
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="beforeclass" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+      </class> <!-- com.auto.qa.testcases.TestPage3 -->
+      <class name="com.auto.qa.testcases.TestPage2">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="beforeclass" is-config="true" duration-ms="7618" started-at="2019-08-27T14:17:47Z" finished-at="2019-08-27T14:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://172.23.25.12/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="beforemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="beforemethod" is-config="true" duration-ms="354" started-at="2019-08-27T14:17:55Z" finished-at="2019-08-27T14:17:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="test1" duration-ms="6" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test1" duration-ms="1" started-at="2019-08-27T14:17:55Z" finished-at="2019-08-27T14:17:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="beforemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="aftermethod" is-config="true" duration-ms="2236" started-at="2019-08-27T14:17:55Z" finished-at="2019-08-27T14:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="beforemethod" is-config="true" duration-ms="347" started-at="2019-08-27T14:17:57Z" finished-at="2019-08-27T14:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="test2" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test2" duration-ms="1" started-at="2019-08-27T14:17:58Z" finished-at="2019-08-27T14:17:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="test3" duration-ms="3" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="aftermethod" is-config="true" duration-ms="2313" started-at="2019-08-27T14:17:58Z" finished-at="2019-08-27T14:18:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="beforemethod" is-config="true" duration-ms="343" started-at="2019-08-27T14:18:00Z" finished-at="2019-08-27T14:18:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test3" duration-ms="0" started-at="2019-08-27T14:18:00Z" finished-at="2019-08-27T14:18:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="aftermethod" is-config="true" duration-ms="2262" started-at="2019-08-27T14:18:00Z" finished-at="2019-08-27T14:18:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="beforemethod" is-config="true" duration-ms="466" started-at="2019-08-27T14:18:03Z" finished-at="2019-08-27T14:18:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="beforemethod" is-config="true" duration-ms="4" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="test4" duration-ms="3" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="test4" duration-ms="1" started-at="2019-08-27T14:18:03Z" finished-at="2019-08-27T14:18:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="aftemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="aftermethod" is-config="true" duration-ms="2227" started-at="2019-08-27T14:18:03Z" finished-at="2019-08-27T14:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="aftemethod" is-config="true" duration-ms="675" started-at="2019-08-27T14:18:05Z" finished-at="2019-08-27T14:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftemethod -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.pages.TestPage2@20e2cbe0]" name="afterclass" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.testcases.TestPage2@cb5822]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-08-27T14:18:06Z" finished-at="2019-08-27T14:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-      </class> <!-- com.auto.qa.pages.TestPage2 -->
-      <class name="com.auto.qa.pages.TestPage3">
-        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforesuite" is-config="true" duration-ms="19" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+      </class> <!-- com.auto.qa.testcases.TestPage2 -->
+      <class name="com.auto.qa.testcases.TestPage5">
+        <test-method status="PASS" signature="beforesuite()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforesuite" is-config="true" duration-ms="10" started-at="2019-08-27T14:16:29Z" finished-at="2019-08-27T14:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforesuite -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforetest" is-config="true" duration-ms="2" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforetest" is-config="true" duration-ms="1" started-at="2019-08-27T14:16:29Z" finished-at="2019-08-27T14:16:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforeclass()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforeclass" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforeclass" is-config="true" duration-ms="9218" started-at="2019-08-27T14:16:29Z" finished-at="2019-08-27T14:16:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://172.23.25.12/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeclass -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforemethod" is-config="true" duration-ms="3" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforemethod" is-config="true" duration-ms="357" started-at="2019-08-27T14:16:38Z" finished-at="2019-08-27T14:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="test1" duration-ms="34" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test1" duration-ms="5" started-at="2019-08-27T14:16:39Z" finished-at="2019-08-27T14:16:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftermethod" is-config="true" duration-ms="2262" started-at="2019-08-27T14:16:39Z" finished-at="2019-08-27T14:16:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforemethod" is-config="true" duration-ms="358" started-at="2019-08-27T14:16:41Z" finished-at="2019-08-27T14:16:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="test2" duration-ms="5" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test2" duration-ms="1" started-at="2019-08-27T14:16:41Z" finished-at="2019-08-27T14:16:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftermethod" is-config="true" duration-ms="2252" started-at="2019-08-27T14:16:41Z" finished-at="2019-08-27T14:16:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforemethod" is-config="true" duration-ms="476" started-at="2019-08-27T14:16:44Z" finished-at="2019-08-27T14:16:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="test3" duration-ms="14" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test3" duration-ms="2" started-at="2019-08-27T14:16:44Z" finished-at="2019-08-27T14:16:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="beforemethod" is-config="true" duration-ms="1" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftermethod" is-config="true" duration-ms="2480" started-at="2019-08-27T14:16:44Z" finished-at="2019-08-27T14:16:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="beforemethod" is-config="true" duration-ms="455" started-at="2019-08-27T14:16:47Z" finished-at="2019-08-27T14:16:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="test4" duration-ms="4" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="test4" duration-ms="1" started-at="2019-08-27T14:16:47Z" finished-at="2019-08-27T14:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test4 -->
-        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="aftemethod" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftermethod" is-config="true" duration-ms="2295" started-at="2019-08-27T14:16:47Z" finished-at="2019-08-27T14:16:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftemethod" is-config="true" duration-ms="671" started-at="2019-08-27T14:16:49Z" finished-at="2019-08-27T14:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftemethod -->
-        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="afterclass" is-config="true" duration-ms="2" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-08-27T14:16:50Z" finished-at="2019-08-27T14:16:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterclass -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="aftertest" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftertest" is-config="true" duration-ms="0" started-at="2019-08-27T14:18:06Z" finished-at="2019-08-27T14:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.auto.qa.pages.TestPage3@2a2d45ba]" name="aftersuite" is-config="true" duration-ms="0" started-at="2019-08-21T20:47:59Z" finished-at="2019-08-21T20:47:59Z">
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.auto.qa.testcases.TestPage5@cc285f4]" name="aftersuite" is-config="true" duration-ms="0" started-at="2019-08-27T14:18:06Z" finished-at="2019-08-27T14:18:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftersuite -->
-      </class> <!-- com.auto.qa.pages.TestPage3 -->
+      </class> <!-- com.auto.qa.testcases.TestPage5 -->
+      <class name="com.auto.qa.testcases.TestPage4">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="beforeclass" is-config="true" duration-ms="7113" started-at="2019-08-27T14:16:50Z" finished-at="2019-08-27T14:16:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://172.23.25.12/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="beforemethod" is-config="true" duration-ms="335" started-at="2019-08-27T14:16:57Z" finished-at="2019-08-27T14:16:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test1" duration-ms="2" started-at="2019-08-27T14:16:58Z" finished-at="2019-08-27T14:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="aftermethod" is-config="true" duration-ms="2198" started-at="2019-08-27T14:16:58Z" finished-at="2019-08-27T14:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="beforemethod" is-config="true" duration-ms="476" started-at="2019-08-27T14:17:00Z" finished-at="2019-08-27T14:17:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test2" duration-ms="1" started-at="2019-08-27T14:17:00Z" finished-at="2019-08-27T14:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="aftermethod" is-config="true" duration-ms="2417" started-at="2019-08-27T14:17:00Z" finished-at="2019-08-27T14:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="beforemethod" is-config="true" duration-ms="516" started-at="2019-08-27T14:17:03Z" finished-at="2019-08-27T14:17:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test3" duration-ms="1" started-at="2019-08-27T14:17:03Z" finished-at="2019-08-27T14:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="aftermethod" is-config="true" duration-ms="2367" started-at="2019-08-27T14:17:03Z" finished-at="2019-08-27T14:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="beforemethod" is-config="true" duration-ms="544" started-at="2019-08-27T14:17:06Z" finished-at="2019-08-27T14:17:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="test4" duration-ms="1" started-at="2019-08-27T14:17:06Z" finished-at="2019-08-27T14:17:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="aftermethod" is-config="true" duration-ms="2305" started-at="2019-08-27T14:17:06Z" finished-at="2019-08-27T14:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="aftemethod" is-config="true" duration-ms="677" started-at="2019-08-27T14:17:08Z" finished-at="2019-08-27T14:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftemethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.testcases.TestPage4@55f3ddb1]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-08-27T14:17:09Z" finished-at="2019-08-27T14:17:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.auto.qa.testcases.TestPage4 -->
+      <class name="com.auto.qa.testcases.TestPage1">
+        <test-method status="PASS" signature="beforeclass(java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="beforeclass" is-config="true" duration-ms="7440" started-at="2019-08-27T14:17:09Z" finished-at="2019-08-27T14:17:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://172.23.25.12/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="beforemethod" is-config="true" duration-ms="363" started-at="2019-08-27T14:17:16Z" finished-at="2019-08-27T14:17:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test1" duration-ms="2" started-at="2019-08-27T14:17:17Z" finished-at="2019-08-27T14:17:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="aftermethod" is-config="true" duration-ms="2231" started-at="2019-08-27T14:17:17Z" finished-at="2019-08-27T14:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="beforemethod" is-config="true" duration-ms="454" started-at="2019-08-27T14:17:19Z" finished-at="2019-08-27T14:17:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test2" duration-ms="1" started-at="2019-08-27T14:17:20Z" finished-at="2019-08-27T14:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="aftermethod" is-config="true" duration-ms="2251" started-at="2019-08-27T14:17:20Z" finished-at="2019-08-27T14:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="beforemethod" is-config="true" duration-ms="484" started-at="2019-08-27T14:17:22Z" finished-at="2019-08-27T14:17:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test3" duration-ms="1" started-at="2019-08-27T14:17:22Z" finished-at="2019-08-27T14:17:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="aftermethod" is-config="true" duration-ms="2330" started-at="2019-08-27T14:17:22Z" finished-at="2019-08-27T14:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="beforemethod(java.lang.String, java.lang.String)[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="beforemethod" is-config="true" duration-ms="397" started-at="2019-08-27T14:17:25Z" finished-at="2019-08-27T14:17:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[339154]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="test4" duration-ms="1" started-at="2019-08-27T14:17:25Z" finished-at="2019-08-27T14:17:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="aftermethod()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="aftermethod" is-config="true" duration-ms="2230" started-at="2019-08-27T14:17:25Z" finished-at="2019-08-27T14:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method status="PASS" signature="aftemethod()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="aftemethod" is-config="true" duration-ms="704" started-at="2019-08-27T14:17:27Z" finished-at="2019-08-27T14:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftemethod -->
+        <test-method status="PASS" signature="afterclass()[pri:0, instance:com.auto.qa.testcases.TestPage1@8bd1b6a]" name="afterclass" is-config="true" duration-ms="0" started-at="2019-08-27T14:17:28Z" finished-at="2019-08-27T14:17:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- com.auto.qa.testcases.TestPage1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
